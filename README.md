@@ -1,6 +1,6 @@
 # curso-desenv-web-6-projetos
 
-Este repositório contém todas as atividades realizadas durante o [Udemy] Curso completo de Desenvolvimento Web - Crie 6 projetos
+Este repositório contém todas as atividades realizadas durante o [Udemy] Curso completo de Desenvolvimento Web - Crie 6 projetos.
 
 Descrição:
 
