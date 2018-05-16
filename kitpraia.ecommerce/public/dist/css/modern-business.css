@@ -1,0 +1,99 @@
+/*!
+ * Start Bootstrap - Modern Business (https://startbootstrap.com/template-overviews/modern-business)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
+ */
+
+body {
+  padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+
+/*body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+}*/
+
+.carousel-item {
+  height: 65vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
+
+/*-----------------------------------*/
+
+.ftrlnk {
+  color: #ffd700;
+}
+
+.ftrlnk:hover {
+  color: #ffff00;
+  text-decoration: underline;
+}
+
+footer {
+    padding: 50px 0;
+    background-color: #f8f8f8;
+    text-align: center;
+}
+
+footer ul.quicklinks {
+    text-align: justify;
+    list-style: none;
+    margin-top: 15px;
+}
+
+ul.social-buttons {
+    margin-bottom: 0;
+}
+
+ul.social-buttons li a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    font-size: 20px;
+    line-height: 40px;
+    outline: 0;
+    color: #fff;
+    background-color: #777; /* #ffd700 */
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+}
+
+ul.social-buttons li a:hover,
+ul.social-buttons li a:active {
+    background-color: #222; /* #ffff00 */
+}
+
+p.copyright {
+    margin: 15px 0;
+}
+
+#coverage-area-map {
+    height: 457.500px;
+    margin: 0;
+    padding: 0;
+}
+
+/*-----------------------------------*/
