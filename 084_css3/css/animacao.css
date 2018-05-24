@@ -1,0 +1,40 @@
+/**********Animações*******/
+
+/*Criar a animação*/
+@keyframes animacao-box {
+
+	from { /*estado inicial*/
+		background: red;
+		border-radius: 0px;
+
+		/*para movimentar*/
+		top: 0;
+		left: 0;
+	}
+	to { /*estado final*/
+		background: yellow;
+		border-radius:300px;
+
+		/*para movimentar*/
+		top: 200px;
+		left: 200px;
+	}
+}
+
+#box-animacao {
+	width: 300px;
+	height: 300px;
+	background: red;
+
+	/*para movimentar*/
+	position: relative;
+
+	/*para utilizar a animação*/
+	animation-name: animacao-box;
+	animation-duration: 5s;
+	animation-delay: 3s;			/*delay para início da animação*/
+	animation-iteration-count: 2;	/*qtd de repetições*/
+	animation-direction: alternate;	/*direção da animação*/
+
+	/*animation: animacao-box 5s 3s 2 alternate;*/
+}
