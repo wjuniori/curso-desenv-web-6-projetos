@@ -1,0 +1,13 @@
+.item {
+	width: 200px;
+	height: 200px;
+	border: 2px solid black;
+	overflow: auto;
+
+	/* visible: conteúdo é vísivel mesmo que não caiba no elemento (excedente) - default 
+	   hidden: conteúdo excendente ao elemento é oculto
+	   scroll: é exibido uma barra de rolagem para visualizar todo o conteúdo dentro do elemento, 
+	   		   independete se a barra de rolagem seja necessária (ou não)
+	   auto: exibe a barra de rolagem apenas se for necessária (quando o conteúdo excede o tamanho do elemento)
+	*/
+}
