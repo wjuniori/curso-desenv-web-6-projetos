@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>If/else - parte 2 de 2</title>
+
+		<script type="text/javascript">
+			
+			// &&  E   Verdadeiro se todas as expressões forem verdadeiras
+      document.write('&&  E   Verdadeiro se todas as expressões forem verdadeiras: ');
+      if (2 == 2 && 4 == 4 && 'a' != 'b') {
+        document.write('Verdadeiro');
+      } else {
+        document.write('Falso');
+      }
+
+      document.write('<br /> <br />');
+
+      // ||  Ou   Verdadeiro se pelo menos uma das expressões for verdadeira
+      document.write('||  Ou   Verdadeiro se pelo menos uma das expressões for verdadeira: ');
+      if (3 == 2 || 4 > 4 || 'a' === 'b') {
+        document.write('Verdadeiro');
+      } else {
+        document.write('Falso');
+      }
+
+      document.write('<br /> <br />');
+
+      // ! Negação   Inverte o resultado da expressão
+      document.write('! Negação   Inverte o resultado da expressão: ');
+      if (!(3 > 2)) {
+        document.write('Verdadeiro');
+      } else {
+        document.write('Falso');
+      }
+
+      document.write('<br /> <br />');
+
+      var nota = prompt('Digite a nota do aluno:');
+      var faltas = prompt('Digite a qtde de faltas do aluno:');
+
+      var media = 7;
+      var faltas_limite = 15;
+
+      if (nota >= media && faltas <= faltas_limite) {
+        document.write('Aprovado');
+      } else {
+        document.write('Reprovado');
+      }
+
+		</script>
+
+	</head>
+	<body>
+
+	</body>
+</html>
