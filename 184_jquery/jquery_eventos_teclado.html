@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+
+    <meta charset="utf-8">
+    <title>Jquery eventos - teclado</title>
+
+    <!-- jquery -->
+    <script src="jquery-3.3.1.js"></script>
+
+    <script type="text/javascript">
+      
+      $(document).ready( function() {
+       
+        //.keydown
+        //.keypress
+        //.keyup
+
+        $('#campo1').keyup( function() {
+         
+          alert('Botão foi pressionado');
+
+        });
+
+      });
+      
+    </script>
+ 
+  </head>
+  <body>
+
+    <input id="campo1" type="text" />
+
+  </body>
+</html>
